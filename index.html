@@ -1,0 +1,223 @@
+                <!DOCTYPE1 html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" contents="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fd15e242ac.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+   <div id="header">
+    <div class="container">
+        <nav>
+            <img src="" class="logo">
+            <ul id="sidemenu">                
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Project</a></li>
+                <li><a href="#portfolio">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Hi, There!</p>
+            <h1>I'm<span> Ahmad Farhan</span><br>from SMTMIM3</h1>
+        </div>
+    </div>
+   </div> 
+
+   <!-- -----------about-------------- -->
+
+   <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/Gambar Passport.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I was born in Marang, Terengganu.I'm currently pursuing my degree at Universiti Sultan Zainal Abidin in Bachelor (Hons.) of Information Technology(Informatic Media).This is my first degree
+                    in my life. I was 21 years old and stay in Marang,Terengganu. I have rare hobby like keeping a pet at home.
+                </p>
+
+                 <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Interest</p>
+                    <p class="tab-links" onclick="opentab('experience')">Future Goal</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                 </div>
+                 <div class="tab-contents active-tab" id="skills"> 
+                    <ul>
+                        <li><span>Game Development</span><br>Design Games</li>
+                        <li><span>Web Design</span><br>Develop web app</li>
+                        <li><span>Computer Graphics</span><br>video editing</li>
+                    </ul>
+                 </div>
+                 <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Professional Goals</span><br>My professional goals is Implementing and managing new technologies to improve efficiency and
+                            ensuring the stability and security of IT systems and infrastructure.I also attract in ensuring the smooth operation of computer systems and networks and
+                            troubleshoot and resolving issues to minimize downtime.And lastly,my goal is to become a good people in IT field. </li>
+                        <li><span></span><br></li>
+                        <li><span></span><br></li>
+                    </ul>
+                 </div>
+                 <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2009-2014</span><br>SK BUKIT GASING</li>
+                        <li><span>2015-2019</span><br>SMK SEBERANG MARANG</li>
+                        <li><span>2020-2022</span><br>PAHANG MATRICULATION</li>
+                        <li><span>2022-present</span><br>Bachelor of Information Technology(Informatic Media) (Hons) UniSZA</li>
+                    </ul>
+                 </div>
+            </div>
+        </div>
+    </div>
+   </div>
+
+   <!-- -------------services----------- -->
+   <div id="services">
+    <div class="container">
+        <h1 class="sub-title">Projects:</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-gamepad"></i>
+                <h2>DEVELOP GAME</h2>
+                <p>Game development is the process of creating video games 
+                    or other interactive entertainment software. It involves 
+                    a combination of artistic, technical, and managerial skills
+                     to bring a game concept from the initial idea to a fully realized product.</p>
+                    <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>Web Design</h2>
+                <p>Web design refers to the process of creating and 
+                    designing websites. It encompasses a range of 
+                    skills and disciplines to produce a visually appealing 
+                    and functional website. Web design involves both the 
+                    aesthetic aspects of a site, such as its layout, color schemes,
+                     and typography, as well as the technical elements that
+                      determine how the website functions and how users interact with it</p>
+                    <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>App design is the process of creating user-friendly and visually
+                   appealing interfaces for mobile applications. It involves designing
+                   layouts, selecting colors, and crafting intuitive interactions to 
+                   enhance the overall user experience.</p>
+                    <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+ </div> 
+
+ <!-- ------------portfolio----------- -->
+ <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Project:</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.jpg">
+                <div class="layer">
+                    <h3>Maze Game</h3>
+                    <p>Navigate a key through five maze levels using arrow keys, 
+                       aiming to reach a house with the fewest moves. From easy to extreme,
+                       test your strategic thinking and agility in this engaging maze game.</p>
+                        <a href="https://github.com/Ahmadfarhannn/maze-game"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.jpg">
+                <div class="layer">
+                    <h3>Music Player</h3>
+                    <p>This music player has several features like you can loop, repeat or shuffle a song,
+                        play/pause a song or play the next or previous song. You can view your songs list 
+                        and also know which song is currently playing and you can also select the song from
+                        the list to play.</p>
+                        <a href="https://github.com/Ahmadfarhannn/music-player"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.jpg">
+                <div class="layer">
+                    <h3>Online Restaurant Menu</h3>
+                    <p>online restaurant menu, seamlessly browse selectable dishes, add items to your cart,
+                       and view the total price for a hassle-free ordering experience from the comfort of 
+                       your device.</p>
+                        <a href="https://github.com/Ahmadfarhannn/online-restaurant-menu"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>  
+ </div>
+
+ <!-- -------contact----------- -->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>ahmadfarhan3960@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>019-3246763</p>
+                <div class="social-icons">
+                    <a href="https://x.com/ahmdfarhannn"><i class="fa-brands fa-square-x-twitter"></i></a>
+                    <a href="https://instagram.com/ahmdfarhannnnnn"><i class="fa-brands fa-square-instagram"></i></a>
+                </div>
+                
+           </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+        <div class="madeby">
+            <p><i class="fa-solid fa-bolt" style="color: #3d28fb;"></i>Design by AHMAD FARHAN</p>
+        </div>
+ </div>
+
+<script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+   </script>
+
+   <script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+
+     
+</body>
+</html>
